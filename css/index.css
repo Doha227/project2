@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap');
+label{
+    text-align: left !important;
+}
+
+.dd{
+    background-color: rgb(246, 246, 246);
+    width: 400px;
+    height: 250px;
+    position:absolute ;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    border-radius: 5px ;
+
+    
+}
+
+body{
+    background-color: #F7ECDE;
+}
+
+h1{
+    font-weight:500;
+   Color:rgb(53, 46, 40);
+font-size:50px;
+line-height:60px;
+font-family: "Pacifico", cursive;
+
+}
+
+h2 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    background: linear-gradient(97deg, rgba(91, 173, 105, 1) 0%, rgba(178, 172, 73, 1) 52%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.titleh1{
+width: 25%;
+margin: auto;
+background: rgb(254,194,96);
+background: linear-gradient(4deg, rgba(254,194,96,1) 50%, rgba(247,236,222,1) 50%);
+height: 50%;
+transition: 1s;
+}
+
+

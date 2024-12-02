@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <title>Document</title>
+</head>
+<body>
+ <div class="container m-auto  mt-5">
+          <div class="title text-center">
+            <div class="titleh1">
+        <h1>Bookmarker</h1>
+    </div>
+        <p>........................................................................................................................................................................................................................................................................................................................</p>
+        <h2> <i class="ri-bookmark-fill"></i>Bookmark your favorite sites <i class="ri-bookmark-fill"></i></h2>
+         </div>
+        <form>
+            <i class="ri-git-repository-fill"></i><label for="nameinput" >Site Name</label>
+            <input type="text" placeholder="BookMark Name" id="nameinput" class="form-control" oninput="validation(this)">
+            <div class="alert alert-danger d-none">
+                name shoyld be 3 charecter
+            </div>
+
+            <i class="ri-links-line"></i><label for="urlinput" >Site Url</label>
+            <input type="text" placeholder="BookMark Name" id="urlinput" class="form-control" oninput="validation(this)">
+            <div class="alert alert-danger d-none">
+                name shoyld be 3 charecter
+            </div>
+        <p class="text-center">.................................................................................................................................................................................................................................................................................................................................</p>
+        <div class="btn-one text-center d-flex justify-content-center">
+        <button type="button" class="btn btn-danger" onclick="add()" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+        </div>
+   
+    <div class="container d-none" id="jj">
+        <div class="dd p-4 shadow-sm">
+            <h4>Site Name or Url is not valid, Please follow the rules below :</h4>
+           <p> <i class="ri-arrow-right-circle-line"></i> Site name must contain at least 3 characters</p>
+           <p> <i class="ri-arrow-right-circle-line"></i> Site URL must be a valid one</p>
+            
+    
+    
+        </div>
+
+    </div>
+
+
+</form>
+ </div>
+    <div class="container m-5 p-5" >
+        <div class="addetion-one d-flex justify-content-around">
+            <h5>index</h5>
+            <h5>Website Name</h5>
+            <h5>Visit</h5>
+            <h5>Delete</h5>
+        </div>
+        <hr>
+        <div id="two">
+
+        </div>
+   
+        
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
